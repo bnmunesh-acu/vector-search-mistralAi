@@ -1,0 +1,92 @@
+[
+  {
+    "name": "E-Adrenaline 8.0 EX1",
+    "shortDescription": "a versatile and comfortable e-MTB designed for adrenaline enthusiasts who want to explore all types of terrain. It features a powerful motor and advanced suspension to provide a smooth and responsive ride, with a variety of customizable settings to fit any rider's needs.",
+    "price": 1499.99,
+    "tags": [
+      "bicycle"
+    ]
+  },
+  {
+    "name": "Enduro X Pro",
+    "shortDescription": "The Enduro X Pro is the ultimate mountain bike for riders who demand the best. With its full carbon frame and top-of-the-line components, this bike is ready to tackle any trail, from technical downhill descents to grueling uphill climbs.",
+    "price": 599.99,
+    "tags": [
+      "bicycle"
+    ]
+  },
+  {
+    "name": "Blaze X1",
+    "shortDescription": "Blaze X1 is a high-performance road bike that offers superior speed and agility, making it perfect for competitive racing or fast-paced group rides. The bike features a lightweight carbon frame, aerodynamic tube shapes, a 12-speed Shimano Ultegra drivetrain, and hydraulic disc brakes for precise stopping power. With its sleek design and cutting-edge technology",
+    "price": 799.99,
+    "tags": [
+      "bicycle",
+      "mountain bike"
+    ]
+  },
+  {
+    "name": "Celerity X5",
+    "shortDescription": "Celerity X5 is a versatile and reliable road bike that is designed for experienced and amateur riders alike. It's designed to provide smooth and comfortable rides over long distances. With an ultra-lightweight and responsive carbon fiber frame, Shimano 105 groupset, hydraulic disc brakes, and 28mm wide tires",
+    "price": 399.99,
+    "tags": [
+      "bicycle",
+      "city bike"
+    ]
+  },
+  {
+    "name": "Velocity V8",
+    "shortDescription": "Velocity V8 is a high-performance road bike that is designed to deliver speed, agility, and control on the road. With its lightweight aluminum frame, carbon fiber fork, Shimano Tiagra groupset, and hydraulic disc brakes, this bike is perfect for experienced riders who are looking for a fast and responsive bike that can handle various road conditions.",
+    "price": 1899.99,
+    "tags": [
+      "bicycle",
+      "electric bike"
+    ]
+  },
+  {
+    "name": "VeloCore X9 eMTB",
+    "shortDescription": "The VeloCore X9 eMTB is a light, agile and versatile electric mountain bike designed for adventure and performance. Its purpose-built frame and premium components offer an exhilarating ride experience on both technical terrain and smooth singletrack.",
+    "price": 1299.99,
+    "tags": [
+      "bicycle",
+      "touring bike"
+    ]
+  },
+  {
+    "name": "Zephyr 8.8 GX Eagle AXS Gen 3",
+    "shortDescription": "Zephyr 8.8 GX Eagle AXS is a light and nimble full-suspension mountain bike. It's designed to handle technical terrain with ease and has a smooth and efficient ride feel. The sleek and powerful Bosch Performance Line CX motor and removable Powertube battery provide a boost to your pedaling and give you long-lasting riding time. The bike also features high-end components and advanced technology for an ultimate mountain biking experience.",
+    "price": 1499.99,
+    "tags": [
+      "bicycle",
+      "electric bike",
+      "city bike"
+    ]
+  },
+  {
+    "name": "Velo 99 XR1 AXS",
+    "shortDescription": "Velo 99 XR1 AXS is a next-generation bike designed for fast-paced adventure seekers and speed enthusiasts. Built for high-performance racing, the bike boasts state-of-the-art technology and premium components. It is the ultimate bike for riders who want to push their limits and get their adrenaline pumping.",
+    "price": 1099.99,
+    "tags": [
+      "bicycle",
+      "mountain bike"
+    ]
+  },
+  {
+    "name": "AURORA 11S E-MTB",
+    "shortDescription": "The AURORA 11S is a powerful and stylish electric mountain bike designed to take you on thrilling off-road adventures. With its sturdy frame and premium components, this bike is built to handle any terrain. It features a high-performance motor, long-lasting battery, and advanced suspension system that guarantee a smooth and comfortable ride.",
+    "price": 1999.99,
+    "tags": [
+      "bicycle",
+      "road bike"
+    ]
+  },
+  {
+    "name": "VeloTech V9.5 AXS Gen 3",
+    "shortDescription": "VeloTech V9.5 AXS is a sleek and fast carbon bike that combines high-end tech with a comfortable ride. It's designed to provide the ultimate experience for the most serious riders. The bike comes with a lightweight and powerful motor that can be activated when needed, and you get a spec filled with premium parts.",
+    "price": 1699.99,
+    "tags": [
+      "bicycle",
+      "electric bike",
+      "city bike"
+    ]
+  }
+]

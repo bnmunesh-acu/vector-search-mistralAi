@@ -1,0 +1,22 @@
+spring:
+  config:
+    import: optional:secrets.properties
+  application:
+    name: vector-search-mistral
+
+  ai:
+#    retry:
+#      max-attempts: 10
+#      backoff:
+#        initial-interval: 2000
+#        multiplier: 5
+#      on-client-errors: false
+
+    mistralai:
+      base-url: https://api.mistral.ai
+      api-key: ${MISTRAL_AI_API_KEY}
+
+      embedding:
+        enabled: true
+        options:
+          model: mistral-embed

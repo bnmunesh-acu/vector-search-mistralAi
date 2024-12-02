@@ -1,0 +1,506 @@
+[
+  {
+  "_id": {
+    "$oid": "67456ed3b2afba640557101f"
+  },
+  "traceId": "88addd9e-1ea7-4e65-931e-77c673537d5c",
+  "workflow": "TEST_MK",
+  "workflowName": "TEST_MK_1",
+  "subWorkflow": "SHIPMENT",
+  "publisher": [
+    "BNMK"
+  ],
+  "subscriber": [
+    "BNMK"
+  ],
+  "executionMode": "ASYNC",
+  "errorModule": "EXECUTION_ENGINE",
+  "errorCategory": "DUPLICATE_MESSAGE_ERROR",
+  "errorCode": "400",
+  "description": "Duplicate message found with key: 7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507644",
+  "errorCause": "",
+  "reprocess": true,
+  "autoReprocess": false,
+  "reprocessCount": 0,
+  "status": "OPEN_TO_REPROCESS",
+  "autoReprocessCount": 0,
+  "searchTag": {
+    "encryptedTags": {
+      "key1": {
+        "$binary": {
+          "base64": "DnQNWIFBoEkDseRgP3dM/sQCGqWY4X9uj0s8s5/vS1gdQY+bLb8/acvlJHn53PRWeK0ggl9QzvTJXRVH8EEzbZZnJbWmkpuHuS4HMlP7xVbjTkDbg22+LXf0DgQELTfZrSdTlGw2v4Qr0RLHcvD8Op0AMKkEa+3OKXIk4k7qrGK0V6YZA5SuK/tMZtf9SmLwlQb8CWap2ppcqGdQ1Vi4fBWiLapPzMyQ/Yh/Q+81cEiSuqieZ4uaJZATF2waT4/dJaKdNfUsjPMUTTcUro/Nml+8U0ngEAr2/e1KvL/EbbrLxA==",
+          "subType": "06"
+        }
+      }
+    },
+    "tags": [
+      "1074"
+    ]
+  },
+  "workflowContext": {
+    "traceId": "88addd9e-1ea7-4e65-931e-77c673537d5c",
+    "batchId": "463f80b1-6b5f-46fa-b030-932b97f6bfc6",
+    "auditType": "WORKFLOW_AUDIT",
+    "currentStatus": "DUPLICATES_DETECTED",
+    "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+    "nextStageToRun": "stage-OUTBOUND-S3-1",
+    "originalPayload": "67456ed3b2afba640557101d",
+    "modifiedPayload": "67456ed3b2afba640557101e",
+    "workflowConfigId": "7abb1460-adec-483a-8aa8-47aea0c262d1",
+    "isAutoReprocessEnabled": false,
+    "messageKey": "7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507644",
+    "batchPayloadIndexNo": 75
+  },
+  "podDetails": {
+    "podName": "platform-execution-engine-deployment-76c59596b7-bghxf"
+  },
+  "tenantId": "1234",
+  "customer": "ASCIS",
+  "businessUnit": "FINANCE",
+  "environment": "DEV",
+  "createdAt": {
+    "$date": "2024-11-26T06:46:43.073Z"
+  },
+  "lastModified": {
+    "$date": "2024-11-26T06:46:43.073Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67456ed2b2afba640557101c"
+  },
+  "traceId": "47dca5b9-4406-49df-b948-2a2497e8f57e",
+  "workflow": "TEST_MK",
+  "workflowName": "TEST_MK_1",
+  "subWorkflow": "SHIPMENT",
+  "publisher": [
+    "BNMK"
+  ],
+  "subscriber": [
+    "BNMK"
+  ],
+  "executionMode": "ASYNC",
+  "errorModule": "EXECUTION_ENGINE",
+  "errorCategory": "DUPLICATE_MESSAGE_ERROR",
+  "errorCode": "400",
+  "description": "Duplicate message found with key: 7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507644",
+  "errorCause": "",
+  "reprocess": true,
+  "autoReprocess": false,
+  "reprocessCount": 0,
+  "status": "OPEN_TO_REPROCESS",
+  "autoReprocessCount": 0,
+  "searchTag": {
+    "encryptedTags": {
+      "key1": {
+        "$binary": {
+          "base64": "DnQNWIFBoEkDseRgP3dM/sQCv8dvtQzzOS8y+UGwe9AWRAsDGIqJTG9fscJAXwN/pK969YCrVVRzobpBwgEqBRojMKhS7ZP/SnxeR+iXht0eofiBgT+QA0Voz97KfFc7de4ApjQiqZoMGZIr+Z9IrlUmPeM/ZmXYApBARZy8We+Sgqw9AHWKwrDJqJPAMqKFaRkOJJD18bD/Nu02TpiBha18P6MrFJXfqNyD3JanEYYlj4k1VzYdzleFCp4QlPZitxKLi10+logDh/WQZcCBbBBX+JwsbJgr7gRwTbDi45C43A==",
+          "subType": "06"
+        }
+      }
+    },
+    "tags": [
+      "1074"
+    ]
+  },
+  "workflowContext": {
+    "traceId": "47dca5b9-4406-49df-b948-2a2497e8f57e",
+    "batchId": "463f80b1-6b5f-46fa-b030-932b97f6bfc6",
+    "auditType": "WORKFLOW_AUDIT",
+    "currentStatus": "DUPLICATES_DETECTED",
+    "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+    "nextStageToRun": "stage-OUTBOUND-S3-1",
+    "originalPayload": "67456ed2b2afba6405571019",
+    "modifiedPayload": "67456ed2b2afba640557101a",
+    "workflowConfigId": "7abb1460-adec-483a-8aa8-47aea0c262d1",
+    "isAutoReprocessEnabled": false,
+    "messageKey": "7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507644",
+    "batchPayloadIndexNo": 74
+  },
+  "podDetails": {
+    "podName": "platform-execution-engine-deployment-76c59596b7-bghxf"
+  },
+  "tenantId": "1234",
+  "customer": "ASCIS",
+  "businessUnit": "FINANCE",
+  "environment": "DEV",
+  "createdAt": {
+    "$date": "2024-11-26T06:46:42.877Z"
+  },
+  "lastModified": {
+    "$date": "2024-11-26T06:46:42.877Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67456ed2b2afba640557101b"
+  },
+  "traceId": "0975c802-f14e-48fc-bd95-994dec74489d",
+  "workflow": "TEST_MK",
+  "workflowName": "TEST_MK_1",
+  "subWorkflow": "SHIPMENT",
+  "publisher": [
+    "BNMK"
+  ],
+  "subscriber": [
+    "BNMK"
+  ],
+  "executionMode": "ASYNC",
+  "errorModule": "EXECUTION_ENGINE",
+  "errorCategory": "DUPLICATE_MESSAGE_ERROR",
+  "errorCode": "400",
+  "description": "Duplicate message found with key: 7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507616",
+  "errorCause": "",
+  "reprocess": true,
+  "autoReprocess": false,
+  "reprocessCount": 0,
+  "status": "OPEN_TO_REPROCESS",
+  "autoReprocessCount": 0,
+  "searchTag": {
+    "encryptedTags": {
+      "key1": {
+        "$binary": {
+          "base64": "DnQNWIFBoEkDseRgP3dM/sQCxvp5wJIc8UczyNinBOxFfFYj+z7rlfYMCf5ybvPGJej//sJYxqX3iJV1u7MIIozS1NAurrM0/fKeaLBD5+JT5jvj52TFVXs2nRw/VUO0fnNzp3egLe80JhPI5GomOknsKVgBT1vCcW8sdnodGt82zxHB4oIiKttJxgADxVmEkPkFkYGY9CJHFmutiRSxiNSKeYm0iAbMjjLjW6cTENaWvOLwzGvsvkhKDTKKO5yP95wtAD5BWrRpd6+2pbSzN20VlYk3rGQFvtCs0TzsxPBvdg==",
+          "subType": "06"
+        }
+      }
+    },
+    "tags": [
+      "1067"
+    ]
+  },
+  "workflowContext": {
+    "traceId": "0975c802-f14e-48fc-bd95-994dec74489d",
+    "batchId": "463f80b1-6b5f-46fa-b030-932b97f6bfc6",
+    "auditType": "WORKFLOW_AUDIT",
+    "currentStatus": "DUPLICATES_DETECTED",
+    "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+    "nextStageToRun": "stage-OUTBOUND-S3-1",
+    "originalPayload": "67456ed2b2afba6405571016",
+    "modifiedPayload": "67456ed2b2afba6405571017",
+    "workflowConfigId": "7abb1460-adec-483a-8aa8-47aea0c262d1",
+    "isAutoReprocessEnabled": false,
+    "messageKey": "7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507616",
+    "batchPayloadIndexNo": 67
+  },
+  "podDetails": {
+    "podName": "platform-execution-engine-deployment-76c59596b7-bghxf"
+  },
+  "tenantId": "1234",
+  "customer": "ASCIS",
+  "businessUnit": "FINANCE",
+  "environment": "DEV",
+  "createdAt": {
+    "$date": "2024-11-26T06:46:42.779Z"
+  },
+  "lastModified": {
+    "$date": "2024-11-26T06:46:42.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67456ed2b2afba6405571018"
+  },
+  "traceId": "f5c7a5ab-d46e-4e29-bfca-1080417f35a2",
+  "workflow": "TEST_MK",
+  "workflowName": "TEST_MK_1",
+  "subWorkflow": "SHIPMENT",
+  "publisher": [
+    "BNMK"
+  ],
+  "subscriber": [
+    "BNMK"
+  ],
+  "executionMode": "ASYNC",
+  "errorModule": "EXECUTION_ENGINE",
+  "errorCategory": "DUPLICATE_MESSAGE_ERROR",
+  "errorCode": "400",
+  "description": "Duplicate message found with key: 7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507616",
+  "errorCause": "",
+  "reprocess": true,
+  "autoReprocess": false,
+  "reprocessCount": 0,
+  "status": "OPEN_TO_REPROCESS",
+  "autoReprocessCount": 0,
+  "searchTag": {
+    "encryptedTags": {
+      "key1": {
+        "$binary": {
+          "base64": "DnQNWIFBoEkDseRgP3dM/sQC2qkmRRHjHLrlkXv6GKRmewXI60x5wlmFjcdR/pQh6b2GSE6T7/avKcu1SK9ysqPtIYxDf+HVelC1mTlT/a0LGQ36l0RFGjor0vQ6jTAln3maQp37xd/egOiW3l1WjXCE9sW7vc9+LgWMRNIsJ7cG9ZMZTqNpTWaZpctbPZ0UYvkPN0jyyIgWx8XVnQioyQedN8GpLcTJt8+bytuxNHQbCfT9ImDRdoNFDH31/1+1pjY51FBPBJy1Dmji8bxjr4W1bIVnQZ+OMIv7lNOL3LjSJg==",
+          "subType": "06"
+        }
+      }
+    },
+    "tags": [
+      "1067"
+    ]
+  },
+  "workflowContext": {
+    "traceId": "f5c7a5ab-d46e-4e29-bfca-1080417f35a2",
+    "batchId": "463f80b1-6b5f-46fa-b030-932b97f6bfc6",
+    "auditType": "WORKFLOW_AUDIT",
+    "currentStatus": "DUPLICATES_DETECTED",
+    "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+    "nextStageToRun": "stage-OUTBOUND-S3-1",
+    "originalPayload": "67456ed2b2afba6405571014",
+    "modifiedPayload": "67456ed2b2afba6405571015",
+    "workflowConfigId": "7abb1460-adec-483a-8aa8-47aea0c262d1",
+    "isAutoReprocessEnabled": false,
+    "messageKey": "7abb1460-adec-483a-8aa8-47aea0c262d1-stage-OUTBOUND-S3-1_1507616",
+    "batchPayloadIndexNo": 66
+  },
+  "podDetails": {
+    "podName": "platform-execution-engine-deployment-76c59596b7-bghxf"
+  },
+  "tenantId": "1234",
+  "customer": "ASCIS",
+  "businessUnit": "FINANCE",
+  "environment": "DEV",
+  "createdAt": {
+    "$date": "2024-11-26T06:46:42.772Z"
+  },
+  "lastModified": {
+    "$date": "2024-11-26T06:46:42.772Z"
+  }
+},
+  {
+    "_id": {
+      "$oid": "673f0aa5b2afba6405570f70"
+    },
+    "traceId": "dc648ebc-d056-4451-9115-ec25f8bb1237",
+    "workflow": "SPLIT_AND_MERGE",
+    "workflowName": "SM_DD_MS",
+    "subWorkflow": "SPLIT_AND_MERGE",
+    "publisher": [
+      "S3"
+    ],
+    "subscriber": [
+      "S3"
+    ],
+    "executionMode": "ASYNC",
+    "errorModule": "OUTBOUND",
+    "errorCategory": "BAD_REQUEST",
+    "errorCode": "400",
+    "description": "Bad request received",
+    "errorCause": "Failed to acquire lock, another process holds it",
+    "reprocess": true,
+    "autoReprocess": false,
+    "reprocessCount": 0,
+    "status": "OPEN_TO_REPROCESS",
+    "autoReprocessCount": 0,
+    "searchTag": {
+      "tags": [
+        "1079"
+      ]
+    },
+    "workflowContext": {
+      "traceId": "dc648ebc-d056-4451-9115-ec25f8bb1237",
+      "batchId": "757c377b-0d24-4cd0-b2b1-d2a25a859e6d",
+      "auditType": "WORKFLOW_AUDIT",
+      "currentStatus": "PAYLOAD_PUBLISH_FAILED",
+      "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+      "nextStageToRun": "stage-OUTBOUND-S3-1",
+      "originalPayload": "673f0aa5b2afba6405570f6e",
+      "modifiedPayload": "673f0aa5b2afba6405570f6f",
+      "workflowConfigId": "596a7cbf-70bc-4df2-bdf4-db909b349e99",
+      "isAutoReprocessEnabled": false,
+      "sequenceNumber": {
+        "$numberLong": "1732184740"
+      },
+      "batchPayloadIndexNo": 79
+    },
+    "podDetails": {
+      "podName": "platform-outbound-deployment-688985d58c-ls5sv"
+    },
+    "tenantId": "IN_NG_01",
+    "customer": "NIKHIL",
+    "businessUnit": "NIKHIL",
+    "environment": "DEV",
+    "createdAt": {
+      "$date": "2024-11-21T10:25:41.616Z"
+    },
+    "lastModified": {
+      "$date": "2024-11-21T10:25:41.616Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "673f0aa5b2afba6405570f6d"
+    },
+    "traceId": "279bfc09-3eab-4315-9c70-63a9b4f88860",
+    "workflow": "SPLIT_AND_MERGE",
+    "workflowName": "SM_DD_MS",
+    "subWorkflow": "SPLIT_AND_MERGE",
+    "publisher": [
+      "S3"
+    ],
+    "subscriber": [
+      "S3"
+    ],
+    "executionMode": "ASYNC",
+    "errorModule": "OUTBOUND",
+    "errorCategory": "BAD_REQUEST",
+    "errorCode": "400",
+    "description": "Bad request received",
+    "errorCause": "Failed to acquire lock, another process holds it",
+    "reprocess": true,
+    "autoReprocess": false,
+    "reprocessCount": 0,
+    "status": "OPEN_TO_REPROCESS",
+    "autoReprocessCount": 0,
+    "searchTag": {
+      "tags": [
+        "1078"
+      ]
+    },
+    "workflowContext": {
+      "traceId": "279bfc09-3eab-4315-9c70-63a9b4f88860",
+      "batchId": "757c377b-0d24-4cd0-b2b1-d2a25a859e6d",
+      "auditType": "WORKFLOW_AUDIT",
+      "currentStatus": "PAYLOAD_PUBLISH_FAILED",
+      "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+      "nextStageToRun": "stage-OUTBOUND-S3-1",
+      "originalPayload": "673f0aa5b2afba6405570f6a",
+      "modifiedPayload": "673f0aa5b2afba6405570f6b",
+      "workflowConfigId": "596a7cbf-70bc-4df2-bdf4-db909b349e99",
+      "isAutoReprocessEnabled": false,
+      "sequenceNumber": {
+        "$numberLong": "1732184740"
+      },
+      "batchPayloadIndexNo": 78
+    },
+    "podDetails": {
+      "podName": "platform-outbound-deployment-688985d58c-ls5sv"
+    },
+    "tenantId": "IN_NG_01",
+    "customer": "NIKHIL",
+    "businessUnit": "NIKHIL",
+    "environment": "DEV",
+    "createdAt": {
+      "$date": "2024-11-21T10:25:41.597Z"
+    },
+    "lastModified": {
+      "$date": "2024-11-21T10:25:41.597Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "673f0aa5b2afba6405570f6c"
+    },
+    "traceId": "6adfc940-4cbf-4381-8df8-b21e0b16be3a",
+    "workflow": "SPLIT_AND_MERGE",
+    "workflowName": "SM_DD_MS",
+    "subWorkflow": "SPLIT_AND_MERGE",
+    "publisher": [
+      "S3"
+    ],
+    "subscriber": [
+      "S3"
+    ],
+    "executionMode": "ASYNC",
+    "errorModule": "OUTBOUND",
+    "errorCategory": "BAD_REQUEST",
+    "errorCode": "400",
+    "description": "Bad request received",
+    "errorCause": "Failed to acquire lock, another process holds it",
+    "reprocess": true,
+    "autoReprocess": false,
+    "reprocessCount": 0,
+    "status": "OPEN_TO_REPROCESS",
+    "autoReprocessCount": 0,
+    "searchTag": {
+      "tags": [
+        "1077"
+      ]
+    },
+    "workflowContext": {
+      "traceId": "6adfc940-4cbf-4381-8df8-b21e0b16be3a",
+      "batchId": "757c377b-0d24-4cd0-b2b1-d2a25a859e6d",
+      "auditType": "WORKFLOW_AUDIT",
+      "currentStatus": "PAYLOAD_PUBLISH_FAILED",
+      "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+      "nextStageToRun": "stage-OUTBOUND-S3-1",
+      "originalPayload": "673f0aa5b2afba6405570f67",
+      "modifiedPayload": "673f0aa5b2afba6405570f68",
+      "workflowConfigId": "596a7cbf-70bc-4df2-bdf4-db909b349e99",
+      "isAutoReprocessEnabled": false,
+      "sequenceNumber": {
+        "$numberLong": "1732184740"
+      },
+      "batchPayloadIndexNo": 77
+    },
+    "podDetails": {
+      "podName": "platform-outbound-deployment-688985d58c-ls5sv"
+    },
+    "tenantId": "IN_NG_01",
+    "customer": "NIKHIL",
+    "businessUnit": "NIKHIL",
+    "environment": "DEV",
+    "createdAt": {
+      "$date": "2024-11-21T10:25:41.590Z"
+    },
+    "lastModified": {
+      "$date": "2024-11-21T10:25:41.590Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "673f0aa5b2afba6405570f69"
+    },
+    "traceId": "6ac81fc8-f1ca-4f74-af6c-86e50e1954a8",
+    "workflow": "SPLIT_AND_MERGE",
+    "workflowName": "SM_DD_MS",
+    "subWorkflow": "SPLIT_AND_MERGE",
+    "publisher": [
+      "S3"
+    ],
+    "subscriber": [
+      "S3"
+    ],
+    "executionMode": "ASYNC",
+    "errorModule": "OUTBOUND",
+    "errorCategory": "BAD_REQUEST",
+    "errorCode": "400",
+    "description": "Bad request received",
+    "errorCause": "Failed to acquire lock, another process holds it",
+    "reprocess": true,
+    "autoReprocess": false,
+    "reprocessCount": 0,
+    "status": "OPEN_TO_REPROCESS",
+    "autoReprocessCount": 0,
+    "searchTag": {
+      "tags": [
+        "1076"
+      ]
+    },
+    "workflowContext": {
+      "traceId": "6ac81fc8-f1ca-4f74-af6c-86e50e1954a8",
+      "batchId": "757c377b-0d24-4cd0-b2b1-d2a25a859e6d",
+      "auditType": "WORKFLOW_AUDIT",
+      "currentStatus": "PAYLOAD_PUBLISH_FAILED",
+      "lastCompletedStage": "stage-SCHEDULED_JOB-S3-0",
+      "nextStageToRun": "stage-OUTBOUND-S3-1",
+      "originalPayload": "673f0aa5b2afba6405570f65",
+      "modifiedPayload": "673f0aa5b2afba6405570f66",
+      "workflowConfigId": "596a7cbf-70bc-4df2-bdf4-db909b349e99",
+      "isAutoReprocessEnabled": false,
+      "sequenceNumber": {
+        "$numberLong": "1732184740"
+      },
+      "batchPayloadIndexNo": 76
+    },
+    "podDetails": {
+      "podName": "platform-outbound-deployment-688985d58c-ls5sv"
+    },
+    "tenantId": "IN_NG_01",
+    "customer": "NIKHIL",
+    "businessUnit": "NIKHIL",
+    "environment": "DEV",
+    "createdAt": {
+      "$date": "2024-11-21T10:25:41.584Z"
+    },
+    "lastModified": {
+      "$date": "2024-11-21T10:25:41.584Z"
+    }
+  }
+]
